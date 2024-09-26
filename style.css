@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    margin: 50px 0 0 0;
+    background: linear-gradient(135deg, #f5aa71 0%, #f58c57 100%);
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #5a67d8;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+button:hover {
+    background-color: #667eea;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 300px;
+}
+
+li {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+
+
+}
+li:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: hsl(0, 2%, 76%);
+}
+li::-webkit-scrollbar {
+    width: 0px; /* width of the scrollbar */
+    height: 0px; /* height of the scrollbar */
+  }
+  
+  li::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* color of the scrollbar thumb */
+    border-radius: 10px; /* rounded corners for the scrollbar thumb */
+  }
+  
+  li::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* color of the scrollbar track */
+    border-radius: 10px; /* rounded corners for the scrollbar track */
+  }
+li:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
